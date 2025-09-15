@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Portfolio de Nadir CHAFI</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,7 +15,9 @@
                 <li><a href="#home">Accueil</a></li>
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#parcours">Parcours Scolaire</a></li>
+                <li><a href="#veille">Veille Technologique</a></li>
+                <li><a href="#rapport">Rapport de Stage</a></li>
+                <li><a href="#parcours">Parcours</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -24,16 +26,20 @@
     <section id="home">
         <h1>Bonjour,</h1>
         <h2>Je suis <span class="highlight">Mohammed Nadir Chafi</span></h2>
-        <p>Étudiant passionné par l'informatique, découvrez mes compétences, certifications et mon parcours.</p>
+        <p>Étudiant passionné par l'informatique, découvrez mes compétences, ma veille technologique, mon rapport de stage et mon parcours.</p>
     </section>
 
     <section id="competences">
         <h1>Mes Compétences</h1>
         <ul>
-            <li>Réseau : VLAN, SSH, infrastructure réseau, Linux, Windows, base de données</li>
-            <li>Langages informatiques : CSS, HTML, PHP, Python, JavaScript</li>
-            <li>Management, économie, droit</li>
-            <li>Cybersécurité : Protection des données, RGPD, sécurité des équipements</li>
+            <li><strong>Réseaux :</strong> VLAN, DHCP, DNS, routage statique et dynamique, SSH, Wireshark</li>
+            <li><strong>Systèmes :</strong> Administration Linux (Debian, Ubuntu), Windows Server (AD, GPO), virtualisation (VMware, VirtualBox)</li>
+            <li><strong>Cybersécurité :</strong> Protection des données, pare-feu, antivirus, sauvegarde, RGPD, audits de sécurité</li>
+            <li><strong>Bases de données :</strong> MySQL, MariaDB, requêtes SQL, sauvegarde/restauration</li>
+            <li><strong>Développement :</strong> HTML, CSS, PHP, JavaScript, Python, shell scripting</li>
+            <li><strong>Supervision :</strong> GLPI, OCS Inventory, Centreon, Zabbix</li>
+            <li><strong>Cloud et DevOps :</strong> notions de Docker, Git, GitHub, CI/CD</li>
+            <li><strong>Compétences transversales :</strong> Gestion de projet, communication, droit du numérique, économie</li>
         </ul>
     </section>
 
@@ -42,65 +48,88 @@
         <ul>
             <li>Certification Pix <br> <img src="pix.PNG" width="350"></li>
             <li>Certification Cisco Packet Tracer <br> <img src="cisco.PNG" width="350"></li>
-            <li>Certification Linux</li>
+            <li>Certification Linux Essentials</li>
             <li>Certification E-Sensibilisation Cyber <br> <img src="sensi.PNG" width="350"></li>
         </ul>
     </section>
 
-    
-        <section id="parcours">
-            <h1>Mon Parcours Scolaire</h1>
-            <h1>Mon <span class="highlight">parcours scolaire</span></h1>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-icon"><img src="turgot.jpg" alt="Lycée"></div>
-                    <div class="timeline-content">
-                        <h2>BTS à Turgot</h2>
-                        <span class="date">2024-2026</span>
-                        <p>En cours d'obtention d'un BTS SIO (informatique) option SISR (solution d'infrastructure systèmes et réseaux)</p>
-                    </div>
-                </div>
-        
-                <div class="timeline-item">
-                    <div class="timeline-icon"><img src="maup.jpg" alt="EPITA"></div>
-                    <div class="timeline-content">
-                        <h2>Lycée Guy de Maupassant</h2>
-                        <span class="date">2021-2024</span>
-                        <p>Baccalauréat technologique en stmg option sig (système d'information et de gestion)</p>
-                    </div>
-                </div>
-        
-                <div class="timeline-item">
-                    <div class="timeline-icon"><img src="lussac.jpg" alt="ESIEE-IT"></div>
-                    <div class="timeline-content">
-                        <h2>Collège Gay Lussac</h2>
-                        <span class="date">2017-2021</span>
-                        <p>Obtention du brevet </p>
-                    </div>
+    <section id="veille">
+        <h1>Veille Technologique : Cybersécurité</h1>
+        <h2>Tendance 2025 : L'IA dans la cybersécurité</h2>
+        <p>
+            La cybersécurité évolue rapidement face aux nouvelles menaces. En 2025, l'intelligence artificielle (IA) joue un rôle central dans la détection des attaques (notamment les attaques de type zero-day). Les outils d'EDR (Endpoint Detection and Response) comme SentinelOne ou CrowdStrike utilisent des algorithmes d'IA pour identifier des comportements anormaux sur les postes clients.
+        </p>
+        <p>
+            En parallèle, les cyberattaques deviennent plus sophistiquées : phishing par deepfake vocal, ransomware-as-a-service, ou encore usurpation d'identité via les réseaux sociaux.
+        </p>
+        <p>
+            Il est donc crucial de maintenir à jour les systèmes, former les utilisateurs et utiliser des outils adaptés (MFA, VPN, pare-feu nouvelle génération).
+        </p>
+        <p><strong>Sources :</strong> ANSSI, ZDNet, LeMagIT, Cybermalveillance.gouv.fr</p>
+    </section>
+
+    <section id="rapport">
+        <h1>Mon Rapport de Stage</h1>
+        <p>Durant mon stage, j'ai travaillé sur des projets concrets liés à la gestion d'infrastructure réseau et à la sécurisation des systèmes d'information.</p>
+        <ul>
+            <li>Mise en place de VLANs et de routage inter-VLAN</li>
+            <li>Configuration d'un serveur DNS/DHCP sous Windows Server</li>
+            <li>Création de scripts de sauvegarde en Bash</li>
+            <li>Documentation technique et schémas réseau</li>
+        </ul>
+        <p>
+            📄 <a href="rapport_stage.pdf" target="_blank">Consulter mon rapport de stage (PDF)</a>
+        </p>
+    </section>
+
+    <section id="parcours">
+        <h1>Mon Parcours Scolaire</h1>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon"><img src="turgot.jpg" alt="Turgot"></div>
+                <div class="timeline-content">
+                    <h2>BTS SIO SISR – Lycée Turgot</h2>
+                    <span class="date">2024-2026</span>
+                    <p>Formation spécialisée dans les solutions d’infrastructure systèmes et réseaux, avec une forte composante en cybersécurité.</p>
                 </div>
             </div>
-        </section>
-        
+
+            <div class="timeline-item">
+                <div class="timeline-icon"><img src="maup.jpg" alt="Maupassant"></div>
+                <div class="timeline-content">
+                    <h2>Baccalauréat STMG – Lycée Guy de Maupassant</h2>
+                    <span class="date">2021-2024</span>
+                    <p>Spécialité SIG (Système d'information de gestion)</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon"><img src="lussac.jpg" alt="Lussac"></div>
+                <div class="timeline-content">
+                    <h2>Collège Gay Lussac</h2>
+                    <span class="date">2017-2021</span>
+                    <p>Obtention du Diplôme National du Brevet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
         <h1>Contact</h1>
-        <p>Vous pouvez me contacter via mon email ou via mes réseaux sociaux :</p>
-    
+        <p>Vous pouvez me contacter via mes réseaux :</p>
         <div class="social-links">
-            <a href="https://fr.linkedin.com/in/mohammed-chafi-286677348?trk=people-guest_people_search-card">
+            <a href="https://fr.linkedin.com/in/mohammed-chafi-286677348?trk=people-guest_people_search-card" target="_blank">
                 <img src="linkedin.png" alt="LinkedIn">
             </a>
-            <a href="https://mail.google.com/mail/u/2/#inbox">
+            <a href="mailto:votremail@gmail.com">
                 <img src="mail.png" alt="Email">
             </a>
-            <a href="cvv.PNG">
-                <img src="cv.png" alt="GitHub">
+            <a href="cvv.PNG" target="_blank">
+                <img src="cv.png" alt="CV">
             </a>
         </div>
     </section>
-    
-    <footer>
-        <p>&copy; 2025 Nadir CHAFI. Tous droits réservés.</p>
-    </footer>
 
-</body>
-</html>
+    <footer>
+
+
