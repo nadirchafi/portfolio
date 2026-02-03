@@ -3,204 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Nadir CHAFI</title>
+    <title>Nadir CHAFI | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <div class="logo">Portfolio de Nadir CHAFI</div>
+        <div class="logo">Nadir<span>Chafi</span></div>
         <nav>
             <ul>
                 <li><a href="#home">Accueil</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#veille">Veille Technologique</a></li>
-                <li><a href="#rapport">Rapport de Stage</a></li>
-                <li><a href="#procedures">Procédures</a></li> 
-                <li><a href="#documents">Documents</a></li> 
+                <li><a href="#competences">Skills</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#certifications">Certs</a></li>
+                <li><a href="#veille">Veille</a></li>
                 <li><a href="#parcours">Parcours</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h1>Bonjour,</h1>
-        <h2>Je suis <span class="highlight">Mohammed Nadir Chafi</span></h2>
-        <p>Étudiant passionné par l'informatique, découvrez mes compétences, ma veille technologique, mon rapport de stage et mon parcours.</p>
-    </section>
-
-    <section id="competences">
-        <h1>Mes Compétences</h1>
-        <ul>
-            <li><strong>Réseaux :</strong> VLAN, DHCP, DNS, routage statique et dynamique, SSH, Wireshark</li>
-            <li><strong>Systèmes :</strong> Administration Linux (Debian, Ubuntu), Windows Server (AD, GPO), virtualisation (VMware, VirtualBox)</li>
-            <li><strong>Cybersécurité :</strong> Protection des données, pare-feu, antivirus, sauvegarde, RGPD, audits de sécurité</li>
-            <li><strong>Bases de données :</strong> MySQL, MariaDB, requêtes SQL, sauvegarde/restauration</li>
-            <li><strong>Développement :</strong> HTML, CSS, PHP, PHP, JavaScript, Python, shell scripting</li>
-            <li><strong>Supervision :</strong> GLPI, OCS Inventory, Centreon, Zabbix</li>
-            <li><strong>Cloud et DevOps :</strong> notions de Docker, Git, GitHub, CI/CD</li>
-            <li><strong>Compétences transversales :</strong> Gestion de projet, communication, droit du numérique, économie</li>
-        </ul>
-    </section>
-
-    <section id="certifications">
-        <h1>Mes Certifications</h1>
-        <ul>
-            <li>Certification Pix <br> <img src="pix.PNG" width="350"></li>
-            <li>
-                <a href="https://www.credly.com/badges/a9550bda-c894-4dd3-8f4a-d2a01fc77ae8" target="_blank" style="text-decoration: none; color: inherit;">
-                    Certification Cisco Packet Tracer <br> 
-                    <img src="cisco.PNG" width="350" style="cursor: pointer;">
-                </a>
-            </li>
-            <li>Certification Linux Essentials</li>
-            <li>Certification E-Sensibilisation Cyber <br> <img src="sensi.PNG" width="350"></li>
-        </ul>
-    </section>
-
-    <section id="veille">
-        <h1>Veille Technologique : L'Évolution du Phishing en Entreprise</h1>
-        <h2>Les Nouvelles Tactiques : De l'IA au Phishing Ciblée</h2>
-        
-        <h3>L'industrialisation des attaques via l'Intelligence Artificielle</h3>
-        <p>
-            Le **phishing** demeure le vecteur d'attaque initial le plus fréquent, responsable de plus de 90% des incidents de sécurité réussis en entreprise. L'évolution majeure réside dans l'utilisation croissante des outils d'**Intelligence Artificielle Générative** (comme les grands modèles de langage) par les attaquants. Ces outils permettent de générer des emails de phishing parfaitement rédigés, sans fautes d'orthographe, et imitant le style de communication d'un collègue ou d'un PDG. Le **Spear Phishing** (attaque ciblée) devient ainsi plus facile à mettre en œuvre à grande échelle, augmentant considérablement le taux de réussite.
-        </p>
-
-        <h3>Les Menaces Critiques pour l'Environnement Professionnel</h3>
-        <ul>
-            <li>
-                <strong>Business Email Compromise (BEC) 💸 :</strong> Le BEC ne s'appuie plus seulement sur des emails, mais intègre le **Vishing** (phishing vocal) via des **Deepfakes audio** pour simuler la voix d'un dirigeant demandant un virement urgent. C'est une menace très coûteuse pour les départements financiers.
-            </li>
-            <li>
-                <strong>Attaques par QR Code (QRishing) :</strong> Des codes QR frauduleux sont disséminés, souvent sous forme d'amende ou de faux avis de paiement. Ces codes redirigent vers des pages de connexion falsifiées pour dérober des identifiants et, dans certains cas, contourner l'**Authentification Multi-Facteurs (MFA)**.
-            </li>
-            <li>
-                <strong>Vulnérabilité de la Chaîne d'Approvisionnement (Supply Chain) :</strong> Les attaquants ciblent les petites et moyennes entreprises sous-traitantes (moins bien protégées) pour s'infiltrer ensuite chez les grands donneurs d'ordre. Une seule brèche chez un fournisseur peut compromettre des dizaines de partenaires.
-            </li>
-        </ul>
-
-        <h3>Stratégies de Défense et Perspectives</h3>
-        <p>
-            Face à cette sophistication, la défense repose sur une stratégie multicouche. Il est crucial d'investir dans des **passerelles de messagerie avancées** (Email Gateways) qui utilisent l'IA pour détecter les anomalies linguistiques et comportementales. Surtout, la **sensibilisation et la formation continue des employés** via des exercices de phishing simulés restent la première ligne de défense pour transformer l'humain en bouclier plutôt qu'en vulnérabilité.
-        </p>
-        <p>
-            <strong>Sources d'Actualité :</strong> 
-            <a href="https://www.ssi.gouv.fr/actualite/" target="_blank">ANSSI (France) - Référentiel de sécurité</a>, 
-            <a href="https://www.zdnet.fr/actualites/securite/" target="_blank">ZDNet Sécurité - Rapports</a>, 
-            <a href="https://www.bleepingcomputer.com/news/security/" target="_blank">BleepingComputer - Analyses</a>,
-            <a href="https://cybermalveillance.gouv.fr/tous-nos-contenus/actualites" target="_blank">Cybermalveillance.gouv.fr - Guide Pratique</a>
-        </p>
-    </section>
-
-    <section id="rapport">
-        <h1>Mon Rapport de Stage</h1>
-        <p>Durant mon stage, j'ai travaillé sur des projets concrets liés à la gestion d'infrastructure réseau et à la sécurisation des systèmes d'information.</p>
-        <p>
-            📄 <a href="rapport_stage_mohammed.pdf" target="_blank">Consulter mon rapport de stage (PDF)</a>
-        </p>
-    </section>
-
-    <section id="procedures">
-        <h1>Mes Procédures et Documentations Techniques</h1>
-        <p>Documentation technique réalisée dans le cadre de mes projets :</p>
-        <ul>
-            <li>
-                🛠️ <a href="procedure_glpi_agent.pdf" target="_blank">Procédure GLPI et Agent GLPI (PDF)</a>
-            </li>
-            <li>
-                🛡️ <a href="documentation_pfsense.pdf" target="_blank">Documentation PfSense (PDF)</a>
-            </li>
-            <li>
-                🌐 <a href="reseau.pdf" target="_blank">Documentation Réseau (PDF)</a>
-            </li>
-        </ul>
-    </section>
-
-    <section id="documents">
-        <h1>Mes Documents Professionnels</h1>
-        <p>Retrouvez ci-dessous mes situations professionnelles et mon tableau de synthèse :</p>
-        <ul>
-            <li>
-                💼 <a href="situation_pro_1.pdf" target="_blank">Situation Professionnelle 1 (PDF)</a>
-            </li>
-            <li>
-                💼 <a href="situation_pro_2.pdf" target="_blank">Situation Professionnelle 2 (PDF)</a>
-            </li>
-            <li>
-                📊 <a href="synthese.pdf" target="_blank">Tableau de Synthèse (PDF)</a>
-            </li>
-        </ul>
-    </section>
-
-    <section id="parcours">
-        <h1>Mon Parcours </h1>
-        <div class="timeline">
-            
-            <div class="timeline-item">
-                <div class="timeline-icon"><img src="boiscolombes.png" alt="Mairie de Bois-Colombes"></div>
-                <div class="timeline-content">
-                    <h2>Stage – Mairie de Bois-Colombes</h2>
-                    <span class="date">12 mai au 4 juillet 2025</span>
-                    <p>Stage de 2 mois au service informatique. Réalisations :</p>
-                    <ul>
-                        <li>Ajout de matériel (PC, imprimantes, claviers) dans GLPI</li>
-                        <li>Participation à l'inventaire du parc informatique</li>
-                        <li>Support utilisateurs (interventions de niveau 1)</li>
-                        <li>Documentation et gestion de tickets</li>
-                    </ul>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Bonjour, je suis <span class="highlight">Mohammed Nadir Chafi</span></h1>
+                <p class="subtitle">Étudiant en BTS SIO SISR | Passionné par l'Infrastructure et la Cybersécurité</p>
+                <div class="hero-btns">
+                    <a href="#projets" class="btn primary">Voir mes projets</a>
+                    <a href="#contact" class="btn secondary">Me contacter</a>
                 </div>
             </div>
+        </section>
 
-            <div class="timeline-item">
-                <div class="timeline-icon"><img src="turgot.jpg" alt="Turgot"></div>
-                <div class="timeline-content">
-                    <h2>BTS SIO SISR – Lycée Turgot</h2>
-                    <span class="date">2024-2026</span>
-                    <p>Formation spécialisée dans les solutions d’infrastructure systèmes et réseaux, avec une forte composante en cybersécurité.</p>
+        <section id="competences">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Réseaux</h3>
+                    <p>VLAN, DHCP, DNS, Routage, Wireshark</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Systèmes</h3>
+                    <p>Linux (Debian, Ubuntu), Windows Server, VMware</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Sécurité</h3>
+                    <p>Pare-feu, RGPD, Audits, Sauvegarde</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Dev & Ops</h3>
+                    <p>Python, PHP, Docker, Git, SQL</p>
                 </div>
             </div>
+        </section>
 
-            <div class="timeline-item">
-                <div class="timeline-icon"><img src="maup.jpg" alt="Maupassant"></div>
-                <div class="timeline-content">
-                    <h2>Baccalauréat STMG – Lycée Guy de Maupassant</h2>
-                    <span class="date">2021-2024</span>
-                    <p>Spécialité SIG (Système d'information de gestion)</p>
+        <section id="projets">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Infrastructure Réseau</h3>
+                        <p>Mise en place d'un réseau complet avec segmentation VLAN et routage dynamique.</p>
+                        <a href="reseau.pdf" class="project-link">Voir la doc →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Sécurisation PfSense</h3>
+                        <p>Configuration de pare-feu et filtrage pour un environnement d'entreprise.</p>
+                        <a href="documentation_pfsense.pdf" class="project-link">Voir la doc →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Gestion de Parc GLPI</h3>
+                        <p>Déploiement d'agents d'inventaire automatique sur un parc informatique.</p>
+                        <a href="procedure_glpi_agent.pdf" class="project-link">Voir la doc →</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="timeline-item">
-                <div class="timeline-icon"><img src="lussac.jpg" alt="Lussac"></div>
-                <div class="timeline-content">
-                    <h2>Collège Gay Lussac</h2>
-                    <span class="date">2017-2021</span>
-                    <p>Obtention du Diplôme National du Brevet</p>
+        <section id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certs-container">
+                <div class="cert-item">
+                    <img src="pix.PNG" alt="Pix">
+                    <p>Certification Pix</p>
+                </div>
+                <div class="cert-item">
+                    <img src="cisco.PNG" alt="Cisco">
+                    <p>Cisco Packet Tracer</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-placeholder">Linux Essentials</div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact">
-        <h1>Contact</h1>
-        <p>Vous pouvez me contacter via mes réseaux :</p>
-        <div class="social-links">
-            <a href="https://fr.linkedin.com/in/mohammed-chafi-286677348?trk=people-guest_people_search-card" target="_blank">
-                <img src="linkedin.png" alt="LinkedIn">
-            </a>
-            <a href="mailto:votremail@gmail.com">
-                <img src="mail.png" alt="Email">
-            </a>
-            <a href="cvv.PNG" target="_blank">
-                <img src="cv.png" alt="CV">
-            </a>
-        </div>
-    </section>
+        <section id="veille">
+            <h2 class="section-title">Veille : Le Phishing</h2>
+            <div class="veille-content">
+                <p><strong>L'industrialisation via l'IA :</strong> Le phishing représente 90% des incidents de sécurité. L'IA générative permet désormais des attaques sans fautes et ultra-ciblées (Spear Phishing).</p>
+                <div class="sources">
+                    <a href="https://www.ssi.gouv.fr/actualite/" target="_blank">ANSSI</a>
+                    <a href="https://www.zdnet.fr/actualites/securite/" target="_blank">ZDNet</a>
+                    <a href="https://cybermalveillance.gouv.fr" target="_blank">Cybermalveillance</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="parcours">
+            <h2 class="section-title">Mon Parcours</h2>
+            <div class="timeline">
+                <div class="event">
+                    <span class="date">2025</span>
+                    <div class="event-desc">
+                        <h3>Stage - Mairie de Bois-Colombes</h3>
+                        <p>Support N1, Gestion de parc GLPI, Inventaire.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <span class="date">2024 - 2026</span>
+                    <div class="event-desc">
+                        <h3>BTS SIO SISR - Lycée Turgot</h3>
+                        <p>Expertise réseaux et systèmes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="social-links">
+                <a href="mailto:votremail@gmail.com" class="social-btn">Email</a>
+                <a href="https://fr.linkedin.com/in/mohammed-chafi-286677348" target="_blank" class="social-btn">LinkedIn</a>
+                <a href="cvv.PNG" class="social-btn">Mon CV</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2025 Portfolio de Mohammed Nadir Chafi. Tous droits réservés.</p>
+        <p>© 2026 Mohammed Nadir Chafi | Créé avec passion</p>
     </footer>
+
 </body>
 </html>
+
